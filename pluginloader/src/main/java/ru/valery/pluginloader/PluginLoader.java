@@ -11,9 +11,13 @@ import java.net.URLClassLoader;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Загрузчик плагинов
+ */
 public class PluginLoader {
+    //Интерфейс-маркер от которого реализуются плагины
     private static final String pluginClassName = "ru.valery.plugins.UserPlugin";
-    private static final String pluginJarPath = "/Users/valery/IdeaProjects/calculator-plugins";
+    //private static final String pluginJarPath = "/Users/valery/IdeaProjects/calculator-plugins";
 
     private Map<String, Plugin> plugins;
 

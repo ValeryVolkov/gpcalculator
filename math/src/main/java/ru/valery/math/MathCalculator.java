@@ -9,6 +9,9 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Stack;
 
+/**
+ * Класс реализующий обработку вычислений с использованием обратной польской нотации
+ */
 public class MathCalculator implements Calculator {
     private Deque<Object> values;
     private Stack<Plugin> operationStack;

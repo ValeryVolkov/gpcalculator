@@ -2,6 +2,9 @@ package ru.valery.math;
 
 import ru.valery.plugins.Plugin;
 
+/**
+ * Для удобства работы со скобками
+ */
 public enum Operations {
     OpenBrace(() -> "("),
     CloseBrace(() -> ")"),
